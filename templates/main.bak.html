@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script type="application/x-javascript" src="static/main.js"></script>
+    <link type="text/css" rel="stylesheet" href="static/main.css">
+</head>
+
+<body onload="init()">
+    <div>
+        <header>
+            <h1 class="text-center">Scoreboard</h1>
+                 <div class="calendarcontainer">
+                      <button id="calendar">Calendar</button>
+                 </div>
+        </header>
+        <div class="clockcontainer">
+            <div id="MyClockDisplay" class="clock"></div>
+             
+        </div>
+        <div class="scorecontainer">
+            <div class="btncontainer">
+                <h2>Home</h2>
+                <div class="btn" id="team1">0</div>
+                <button class="scorebtn" id="homeplus">+</button>
+                <button class="scorebtn" id="homeminus">-</button>
+            </div>
+            <div id="roundcounter">
+                <button id="roundplus">+</button>
+                <div id="rounddisplay">
+                    <p>Round</p>
+                    <p id="roundnum">1</p>
+                </div>
+                <button id="roundminus">-</button>
+            </div>
+            <div>
+                <button id="clear">Clear</button>
+            </div>
+            <div class="btncontainer">
+                <h2>Away</h2>
+                <div class="btn" id="team2">0</div>
+                <button class="scorebtn" id="awayplus">+</button>
+                <button class="scorebtn" id="awayminus">-</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
