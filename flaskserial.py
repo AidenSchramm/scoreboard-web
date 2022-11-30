@@ -3,7 +3,7 @@ from flask_serial import Serial
 
 app = Flask(__name__)
 app.config['SERIAL_TIMEOUT'] = 0.2
-app.config['SERIAL_PORT'] = '/dev/ttyACM0'
+app.config['SERIAL_PORT'] = '/dev/ttyUSB0'
 app.config['SERIAL_BAUDRATE'] = 19200
 app.config['SERIAL_BYTESIZE'] = 8
 app.config['SERIAL_PARITY'] = 'N'
